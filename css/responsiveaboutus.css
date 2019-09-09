@@ -1,0 +1,197 @@
+/* About Us */
+
+@media (min-width: 1728px) {
+  .container {
+    max-width: 1728px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .aboutUsFirstSect p {
+    padding-right: 30px;
+}
+
+.aboutUsSection p, .ourTeamSection p, .pbwcSection p {
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.aboutUsIconImg {
+  height: 120px;
+}
+
+.aboutUsImg {
+  height: 500px;
+}
+
+.aboutUsSection h4, .ourTeamSection h4, .pbwcSection h4 {
+  padding-top: 60px;
+}
+
+.ourTeamCardImg {
+  height: 450px;
+}
+
+.ourTeamCardInfo {
+  padding: 30px;
+}
+
+.ourTeamCardInfo h5, .ourTeamCardInfo h6 {
+  font-size: 19px;
+}
+
+.logoImg {
+  width: 100%;
+}
+}
+
+@media (max-width: 1199px) {
+  .pbwcSection {
+    margin-bottom: 100px;
+}
+
+  .ourTeamCardInfo h5, .ourTeamCardInfo h6 {
+    font-size: 17px;
+}
+
+  .aboutUsSection h4, .ourTeamSection h4, .pbwcSection h4 {
+    font-size: 40px;
+}
+
+.aboutUsSection p, .ourTeamSection p, .pbwcSection p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.aboutUsIconImg {
+  height: 100px;
+}
+
+.ourTeamCardImg {
+  height: 350px;
+}
+}
+
+@media (max-width: 1024px) {
+  .ourTeamCardImg {
+    height: 300px;
+}
+
+  .aboutUsIconImg {
+    height: 90px;
+}
+
+.aboutUsSection p, .ourTeamSection p, .pbwcSection p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ourTeamSection {
+  padding-bottom: 80px;
+}
+
+.pbwcSection p {
+  margin-bottom: 80px;
+}
+
+.logoImg {
+  width: 90%;
+}
+
+.logoImg img {
+  width: 100%;
+}
+}
+
+@media (max-width: 991px) {
+
+  .ourTeamCardImg {
+    height: 350px;
+}
+
+  .aboutUsFirstSect p {
+    padding-right: 0;
+}
+
+.aboutUsImg {
+  height: 400px;
+}
+
+.aboutUsFirstSect {
+  margin-bottom: 50px;
+}
+
+.aboutUsSection {
+  margin-bottom: 65px;
+}
+
+.ourTeamCard {
+  margin-bottom: 60px;
+}
+
+.logoImg {
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.ourTeamCardImg, .ourTeamCardInfo {
+  width: 100%;
+  margin: auto;
+}
+}
+
+@media (max-width: 767px) {
+  .ourTeamCardImg, .ourTeamCardInfo {
+    width: 320px;
+    margin: auto;
+}
+
+.aboutUsImg img {
+  width: 400px;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.aboutUsImg {
+  margin-bottom: 30px;
+}
+}
+
+@media (max-width: 575px) {
+  .logoImg {
+    width: 150px;
+    margin-bottom: 70px;
+}
+
+.pbwcSection {
+  margin-bottom: 50px;
+}
+
+}
+
+@media (max-width: 500px) {
+  .ourTeamCardImg, .ourTeamCardInfo {
+    width: 100%;
+    margin: auto;
+}
+
+.aboutUsImg img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+}
+
+@media (max-width: 400px) {
+  .aboutUsIconImg {
+    height: 70px;
+}
+
+.aboutUsSection p, .ourTeamSection p, .pbwcSection p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+}
+

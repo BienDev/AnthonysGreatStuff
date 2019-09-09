@@ -1,0 +1,1147 @@
+@media (min-width: 1728px) {
+  .container {
+    max-width: 1728px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .promo p, .promo a {
+    font-size: 15px;
+  }
+
+  .navbar ul {
+    margin: 0 30px;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  .navbar li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .searchForm label {
+    font-size: 30px;
+    margin-right: 25px;
+  }
+
+  .compLogo {
+    width: 225px;
+    height: 80px;
+  }
+
+  nav {
+    height: 150px;
+  }
+
+  .profileIcon {
+    margin-right: 25px;
+  }
+
+  .myCart img {
+    height: 35px;
+  }
+
+  .myCart h6 {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+
+  .myCart p {
+    font-size: 12px;
+  }
+
+  .heroText h5 {
+    font-size: 45px;
+  }
+
+  .heroText h1 {
+    margin-left: 100px;
+  }
+
+  .heroButtons1, .heroButtons2 {
+    width: 260px;
+  }
+
+  .couponOff h6 {
+    font-size: 40px;
+  }
+
+  .couponOff h1 {
+    font-size: 120px;
+  }
+
+  .emailCouponSection {
+    background: linear-gradient(100deg, #2835ab 48%, #252525 48%);
+    padding: 20px 0;
+  }
+
+  .couponInput input[type='text'] {
+    height: 60px;
+    font-size: 19px;
+    padding-left: 25px;
+  }
+
+  .couponInput input[type='submit'] {
+    height: 60px;
+    font-size: 19px;
+  }
+
+  .couponInput input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+  }
+
+  .couponInput label {
+    font-size: 19px;
+    letter-spacing: 1px;
+  }
+
+  .ccBox {
+    width: 300px;
+    height: 300px;
+    padding: 40px 20px;
+  }
+
+  .ccBox h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+
+  .ccBox p {
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .ccBox input {
+    font-size: 19px;
+    width: 260px;
+    letter-spacing: 1px;
+  }
+
+  .bsImg {
+    height: 350px;
+  }
+
+  .bsTitle h5 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+  }
+
+  .bsPrice .after {
+    font-size: 18px;
+    margin-right: 6px;
+  }
+
+  .bsPrice .before {
+    font-size: 16px;
+  }
+
+  .specialOfferSection {
+    height: 350px;
+  }
+
+  .soBox {
+    width: 400px;
+    height: 250px;
+  }
+
+  .womenOutfitSection, .menOutfitSection {
+    width: 100%;
+  }
+
+  .ofImg {
+    width: 100%;
+}
+
+.womenOutfitSection .title, .menOutfitSection .title {
+  left: 50px;
+}
+
+.title h5 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.outfitsectbtn input {
+  width: 260px;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.outfitsectbtn {
+  top: 500px;
+}
+
+.newsletterSection p {
+  font-size: 19px;
+  width: 90%;
+}
+
+.emailInputSection input[type='text'], .emailInputSection input[type='submit'] {
+  width: 470px;
+  height: 60px;
+  font-size: 19px;
+}
+
+.emailInputSection input[type='submit'] {
+  width: 270px;
+  height: 60px;
+  font-size: 19px;
+}
+
+.footerLocation p {
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.footerContacts p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+
+.footerContacts {
+  flex-direction: column;
+}
+
+.footerSecondSect a {
+  font-size: 17px;
+}
+
+.footerSecondSect li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.footerGalleryGrid {
+  display: grid;
+  grid-template-columns: 47% 23% 23%;
+  grid-template-rows: 120px 120px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-areas: "bigImage smallImage1 smallImage2"
+"bigImage smallImage3 smallImage4";
+}
+
+.paginationSection a {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+
+.topNav h6, .topNav p, .sortForm {
+  display: inline;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.2px;
+}
+
+.bestSellerSideSection h4 {
+  font-size: 19px;
+  letter-spacing: 1.2px;
+}
+
+.bestSellerSideSection li {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+
+.sellCardIg {
+  height: 380px;
+}
+
+.sellCardInfo h5 {
+  letter-spacing: 1.2px;
+  font-size: 17px;
+}
+
+.sellCardInfo p {
+  letter-spacing: 1.2px;
+  font-size: 16px;
+}
+
+.mainFAQSection h6 {
+  font-size: 38px;
+  margin-bottom: 35px;
+}
+
+.mainFAQSection p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.mainFAQSection .searchBox {
+  height: 56px;
+}
+
+.mainFAQSection .searchBox input {
+  font-size: 16px;
+}
+
+.mainFAQSection .searchBox label {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.btn-custom {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+
+.custom-card-body {
+  font-size: 16px;
+}
+
+.allProductBreadCrumb a, .allProductBreadCrumb, .itemInfo p, .productQuantity label, .productQuantity input, .productMoreInfo li, .productColor h6 {
+  font-size: 16px;
+}
+
+.itemInfo h4 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 19px;
+}
+
+.allProductBreadCrumb {
+  padding: 30px 0;
+}
+
+.productPrice .before, .productPrice .after {
+  font-size: 25px;
+}
+
+.productCheckout h6 {
+  font-size: 19px;
+}
+
+.productPrice {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.productQuantity input {
+  width: 50px;
+  height: 50px;
+}
+
+.productColorSample {
+  width: 40px;
+  height: 40px;
+}
+
+.mainImage {
+  height: 500px;
+  padding: 30px;
+}
+
+.sideImageView {
+  width: 100px;
+  height: 100px;
+}
+
+.productCartBtn input {
+  font-size: 16px;
+  padding: 20px 60px;
+}
+
+.productMoreInfo h3 {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.productMoreInfo li {
+  margin-bottom: 40px;
+}
+}
+
+@media (max-width: 1199px) {
+  .heroText h2 {
+    font-size: 80px;
+    margin-left: -65px;
+}
+
+.heroText h1 {
+  margin-left: -40px;
+  margin-top: 0px;
+}
+
+.couponOff h1 {
+  font-size: 100px;
+}
+
+.couponOff h6 {
+  font-size: 30px;
+}
+
+.couponInput input[type='checkbox'] {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.couponInput label {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.couponInput input[type='text'] {
+  height: 50px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.couponInput input[type='submit'] {
+  height: 50px;
+  font-size: 15px;
+}
+
+.ccBox {
+  right: 50px;
+}
+
+.vrtclLetter {
+  width: 100px;
+}
+
+.footerThirdSect {
+  margin-top: 30px;
+}
+
+.footerGalleryGrid {
+  grid-template-rows: 150px 150px;
+}
+
+.topNav h6, .topNav p, .sortForm {
+  font-size: 14px;
+}
+
+.topNav h6 {
+  margin-right: 10px;
+}
+
+.sortForm select {
+  width: 250px;
+  border: none;
+  padding: 10px 20px;
+}
+
+.sellCardIg {
+  height: 330px;
+}
+
+.bestSellerSideSection li {
+  margin-bottom: 20px;
+}
+
+.categorySideSection, .exploreSideSection, .aboutUsSideSection, .contactUsSideSection, .FAQSideSection {
+  margin-bottom: 5px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+.bestSellerSideSection h4 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sellCardHover a {
+  width: 30px;
+  height: 30px;
+}
+
+.aboutUsSection h4, .ourTeamSection h4, .pbwcSection h4 {
+  font-size: 40px;
+}
+
+.mainFAQSection h6 {
+  font-size: 31px;
+  margin-bottom: 30px;
+}
+
+.mainFAQSection p {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.mainFAQSection .searchBox {
+  height: 47px;
+}
+
+.mainFAQSection .searchBox input {
+  font-size: 14px;
+}
+
+.mainFAQSection .searchBox label {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.btn-custom {
+  font-size: 14px;
+  padding: 15px 30px;
+}
+
+.FAQSection {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.custom-card-body {
+  font-size: 14px;
+}
+
+.allProductBreadCrumb a, .allProductBreadCrumb, .itemInfo p, .productQuantity label, .productQuantity input, .productMoreInfo li, .productColor h6 {
+  font-size: 14px;
+}
+
+.itemInfo h4 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.allProductBreadCrumb {
+  padding: 20px 0;
+}
+
+.productPrice .before, .productPrice .after {
+  font-size: 21px;
+}
+
+.productCheckout h6 {
+  font-size: 16px;
+}
+
+.productPrice {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.productQuantity input {
+  width: 40px;
+  height: 40px;
+}
+
+/* .productColorSample {
+  width: 40px;
+  height: 40px;
+} */
+
+.mainImage {
+  height: 410px;
+  padding: 20px;
+}
+
+.sideImageView {
+  width: 85px;
+  height: 85px;
+  padding: 11px;
+}
+
+.productCartBtn input {
+  font-size: 14px;
+  padding: 20px 50px;
+}
+
+.productMoreInfo h3 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.productMoreInfo li {
+  margin-bottom: 30px;
+}
+
+.productCheckout li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.contactUsSection h6 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.contactUsSection p {
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.formGroupItem label, 
+.formGroupTextArea label {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.formGroupItem input,
+.formGroupTextArea textarea {
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.submitBtn input {
+  padding: 20px 80px;
+  font-size: 16px;
+}
+
+.contactUsSection {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+
+.productCustom {
+  margin-bottom: 45px;
+  justify-content: flex-start;
+}
+
+.productQuantity {
+  margin-right: 30px;
+}
+}
+
+@media (max-width: 1024px) {
+  .blacknav {
+    padding: 5px 0;
+}
+
+.navbar li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.navbar a {
+  font-size: 16px;
+}
+
+.heroText h2, .heroText .h2 {
+  font-size: 70px;
+  margin-left: -50px;
+}
+
+.heroButtons1, .heroButtons2 {
+  font-size: 19px;
+}
+
+.bestSellerSideSection li {
+  font-size: 15px;
+  letter-spacing: 0.1px;
+}
+
+.sellCardIg {
+  height: 280px;
+}
+
+.sellCardInfo h5 {
+  letter-spacing: 0.8px;
+  font-size: 14px;
+}
+
+.sellCardInfo p {
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+.paginationNumber a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.PrevPage i {
+  margin-right: 20px;
+}
+
+.NextPage i {
+  margin-left: 20px;
+}
+
+.contactUsSection h6 {
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.contactUsSection {
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.bestSellerMainSection h4 {
+  font-size: 35px;
+  padding-top: 60px;
+}
+
+.bestSellerSideSection h4 {
+  font-size: 16px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+}
+
+@media (max-width: 991px) {
+  .promo p, .promo a {
+    font-size: 13px;
+}
+
+.searchForm, .profileIcon, .myCart {
+  margin: 0 30px;
+  background: #fff;
+  display: block;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.profileIcon {
+  border-radius: 0;
+  width: inherit;
+}
+
+.profileIcon img {
+  width: 50px;
+  height: 50px;
+}
+
+.myCart {
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.bg-light-custom {
+  background: #fff;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.promo li {
+  margin-left: 20px;
+}
+
+nav {
+  height: 95px;
+}
+
+.heroText h5 {
+  font-size: 35px;
+  margin-left: 0;
+}
+
+.heroText h2, .heroText .h2 {
+  font-size: 65px;
+  margin-left: -100px;
+}
+
+.heroText h1 {
+  margin-left: -90px;
+  margin-top: 0px;
+  font-size: 120px;
+}
+
+.heroButtons1, .heroButtons2 {
+  font-size: 17px;
+  width: 230px;
+}
+
+.emailCouponSection {
+  background: linear-gradient(178deg, #2835ab 48%, #252525 48%);
+  padding: 20px 0;
+}
+
+.collectionCardGrid {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.collectionCard {
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.ccBox {
+  height: 250px;
+}
+
+.ccBox input {
+  font-size: 17px;
+  width: 230px;
+  letter-spacing: 1px;
+  bottom: 20px;
+}
+
+.bestSeller h3 {
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.bestSellerSection {
+  padding-top: 60px;
+}
+
+.soBoxPosi {
+  position: relative;
+  width: 100%;
+  height: 370px;
+}
+
+.soBox {
+  right: 0px;
+}
+
+.outfitSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  margin-bottom: 20px;
+}
+
+.womenOutfitSection, .menOutfitSection {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.title h5 {
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+.outfitsectbtn {
+  top: 550px;
+}
+
+.newsletterSection p {
+  width: 100%;
+}
+
+.emailInputSection input[type='text'], .emailInputSection input[type='submit'] {
+  margin-bottom: 20px;
+}
+
+.newsletterSection h4 {
+  font-size: 30px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.newsletterSection p {
+  font-size: 16px;
+  width: 100%;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.bestSellerSideSection h4 {
+  font-size: 16px;
+  letter-spacing: .2px;
+}
+
+.sideSectionHideM {
+  display: none;
+}
+
+.productImage {
+  width: 450px;
+  margin: 20px auto;
+}
+
+.productViewItem {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.topNav {
+  padding-left: 230px;
+}
+
+.bestSellerSideSection {
+  position: absolute;
+  z-index: 2;
+}
+
+.smalldesc {
+  max-height: 45px;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+
+.smalldesc.expand {
+  max-height: 1000px;
+}
+}
+
+@media (max-width: 768px) {
+  .heroText h2, .heroText .h2 {
+    font-size: 45px;
+}
+
+.heroText h5 {
+  font-size: 25px;
+  margin-left: 0;
+}
+
+.heroText h1 {
+  margin-left: -15px;
+  margin-top: 0px;
+  font-size: 90px;
+}
+
+.heroButtons1, .heroButtons2 {
+  font-size: 16px;
+  width: 200px;
+}
+
+.emailInputSection input[type='text'] {
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+}
+
+.emailInputSection input[type='submit'] {
+  width: 300px;
+  height: 55px;
+  font-size: 17px;
+}
+
+.topNav {
+  padding-left: 170px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sortForm {
+  margin-left: 0;
+}
+}
+
+@media (max-width: 767px) {
+  .promo p, .promo a {
+    font-size: 11px;
+}
+
+.heroText h1 {
+  margin-left: -45px;
+}
+
+.title h5 {
+  font-size: 35px;
+}
+
+.footerSecondSect {
+  font-size: 25px;
+  margin-right: 0;
+  margin-top: 30px;
+}
+
+.footerLocation p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.footerContacts {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footerContacts p {
+  margin-right: 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footerSecondSect a {
+  font-size: 15px;
+}
+
+.mainFAQSection .searchBox {
+  max-width: 100%;
+}
+
+.formGroupItem {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.topNav {
+  padding-left: 58%;
+}
+}
+
+@media (max-width: 700px) {
+.promo li {
+    margin-left: 10px;
+  }
+
+.ccBox {
+  right: 20px;
+}
+
+.ccBox {
+  width: 250px;
+  padding: 10px 10px;
+}
+
+.collectionCard {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.soBox {
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.topNav {
+  padding-left: 0;
+  padding-top: 60px;
+}
+}
+
+@media (max-width: 600px) {
+  .heroText h2, .heroText .h2 {
+    font-size: 40px;
+    margin-left: -30px;
+}
+
+.heroText h1 {
+  font-size: 80px;
+}
+
+.productImage {
+  width: 100%;
+  margin: 20px auto;
+}
+}
+
+@media (max-width: 500px) {
+.promo {
+  flex-direction: column;
+}
+
+.heroText h2, .heroText .h2 {
+  font-size: 35px;
+  margin-left: -10px;
+}
+
+.heroText h1 {
+  margin-left: -10px;
+  font-size: 65px;
+}
+.couponInput label {
+  font-size: 13px;
+}
+
+.ccBox input {
+  width: 200px;
+  right: 20px;
+}
+
+.soBox {
+  width: 100%;
+}
+
+.heroButtons {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.heroButtons1, .heroButtons2 {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.btn-custom {
+  padding: 15px 15px;
+}
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 99%;
+  }
+
+  .heroText h5 {
+    font-size: 12px;
+}
+
+.heroText h2, .heroText .h2 {
+  font-size: 16px;
+  margin-left: -10px;
+}
+
+.heroText h1 {
+  font-size: 35px;
+}
+
+.couponInput input[type='text'] {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.couponInput input[type='submit'] {
+  width: 100%;
+  margin-left: 0;
+}
+
+.womenOutfitSection .title, .menOutfitSection .title {
+  left: 30px;
+}
+
+.outfitsectbtn {
+  left: 25px;
+}
+
+.emailInputSection input[type='submit'] {
+  width: 100%;
+}
+
+.couponOff h6 {
+  font-size: 25px;
+}
+
+.couponOff h1 {
+  font-size: 80px;
+}
+
+.mainImage {
+  height: 350px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 325px) {
+  .couponOff h6 {
+    font-size: 20px;
+}
+
+.couponOff h1 {
+  font-size: 70px;
+}
+
+.couponInput label {
+  font-size: 10px;
+}
+
+.title h5 {
+  font-size: 25px;
+}
+}

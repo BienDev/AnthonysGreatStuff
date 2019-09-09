@@ -1,0 +1,1541 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Permanent+Marker&display=swap');
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Knewave&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* * {
+  outline: 1px solid red ;
+}
+ */
+*, p, ul, h1, h2, h3, h4, h5, h6, label{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Home */
+
+/* Header */
+
+header {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+}
+
+.blacknav {
+  width: 100%;
+  background: #000;
+  padding: 10px 0;
+}
+
+.promo {
+  font-size: 17px;
+  font-family: 'Comfortaa';
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo p {
+  font-size: 17px;
+  color: #fff;
+  display: inline;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.promo li {
+  display: inline;
+  margin-left: 40px;
+}
+
+.promo a {
+  display: inline;
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Navigation Bar */
+
+nav {
+  height: 175px;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 2000;
+  border-bottom: 1px solid #000;
+}
+
+.bg-light-custom { 
+  background: #fff;
+}
+
+.navFlex {
+  display: flex;
+  align-items: center;
+}
+
+.compLogo {
+  width: 325px;
+  height: 80px;
+}
+
+.compLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navbar ul {
+  margin: 0 60px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navbar a {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  font-weight: 550;
+  color: #000;
+}
+
+.searchForm {
+  color: black;
+}
+
+.searchForm input {
+  display: none;
+}
+
+.searchForm label {
+  font-size: 40px;
+  margin-right: 50px;
+}
+
+.profileIcon {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.profileIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.myCart {
+  display: flex;
+  color: black;
+  align-items: center;
+}
+
+.myCart img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.myCart h6 {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  margin-bottom: 3px;
+}
+
+.myCart p {
+  font-size: 16px;
+  font-family: 'Comfortaa';
+}
+
+/* Hero Section */
+
+.heroSection {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heroText {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+  color: #fff;
+}
+
+.heroText h5 {
+  font-size: 58px;
+  text-transform: uppercase;
+  font-family: 'Permanent Marker';
+  text-shadow: 2px 2px 5px #000;
+  letter-spacing: 8px;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.heroText h1, .heroText h2 {
+  font-family: 'GothamPro';
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  white-space: nowrap;
+}
+
+.heroText h2 {
+  font-size: 100px;
+  transform: rotate(2deg);
+  text-shadow:  -50px 50px 10px rgba(0, 0, 0, .2);
+}
+
+.heroText h1 {
+  font-size: 140px;
+  margin-left: 300px;
+  transform: rotate(-4deg);
+  margin-top: -15px;
+  text-shadow: 0px 0px 15px #000;
+  margin-bottom: 40px;
+}
+
+.heroButtons {
+  margin: auto;
+  text-align: center;
+}
+
+.heroButtons1 {
+  color: #000;
+  background: #fff;
+  border: none;
+  width: 321px;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  padding: 1.2em 0;
+}
+
+.heroButtons2 {
+  color: #fff;
+  background: #f7941d;
+  border: none;
+  width: 321px;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  padding: 1.2em 0;
+  margin-left: 20px;
+}
+
+.heroButtons1:hover, .heroButtons2:hover {
+  box-shadow: 0px 0px 10px #000;
+  transition: all .5s;
+}
+
+/* Coupon Section */
+
+.emailCouponSection {
+  background: linear-gradient(115deg, #2835ab 45%, #252525 45%);
+  padding: 30px 0;
+}
+
+.couponFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.couponOff {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.couponOff h1 {
+  font-size: 166px;
+  color: #fff;
+  font-family: 'GothamPro';
+  font-weight: 600;
+}
+
+.couponOff h6 {
+  font-size: 58px;
+  color: #fff;
+  font-family: 'Comfortaa';
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 20px;
+  letter-spacing: 10px;
+}
+
+.couponInput {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.couponInput input[type='text'] {
+  width: 60%;
+  height: 76px;
+  color: black;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  padding-left: 30px;
+}
+
+.couponInput input[type='submit'] {
+  width: 34%;
+  margin-left: 3%;
+  height: 76px;
+  color: white;
+  background: #f7941d;
+  border: none;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+}
+
+.couponInput input[type='submit']:hover {
+  box-shadow: 0px 0px 10px #000;
+  transition: all .5s;
+}
+
+.couponInput input[type='checkbox'] {
+  margin-top: 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.couponInput label {
+  color: white;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+}
+
+/* Collection Section */
+
+.collectionCardGrid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 430px 430px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.collectionCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ccImg, .ccImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ccBoxTop {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.ccBoxBot {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.ccBoxSide {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+
+.ccBox {
+  background: #fff;
+  position: absolute;
+  width: 430px;
+  height: 370px;
+  padding: 75px 35px;
+  top: 20px;
+  right: 100px;
+  border-left: 8px solid #2835ab;
+}
+
+.ccBox h4 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #2835ab;
+  text-transform: uppercase;
+  font-family: 'Signika';
+  letter-spacing: 3px;
+}
+
+.ccBox p {
+  font-size: 21px;
+  color: #2835ab;
+  font-family: 'Comfortaa';
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
+
+.ccBox input {
+  position: absolute;
+  right: -30px;
+  bottom: 40px;
+  border: none;
+  background: #f7941d;
+  color: white;
+  font-size: 21px;
+  width: 320px;
+  padding: 1em 0;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+}
+
+.ccBox input:hover {
+  box-shadow: 0px 0px 10px #000;
+  transition: all .5s;
+}
+
+/* Best Seller Section */
+
+.bestSellerSection {
+  background: #f8f8f8;
+  width: 100%;
+  padding-top: 95px;
+}
+
+.bestSellerFlex {
+  display: flex;
+  padding-bottom: 120px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.bsCard {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bsImg {
+  position: relative;
+  width: 100%;
+  height: 510px;
+  background: white;
+}
+
+.bsImg:hover .sellcardcontent {
+  display: block;
+}
+
+.bsImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.bestSeller h3 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Signika';
+  font-weight: bold;
+  margin-bottom: 115px;
+}
+
+.bsTitle h5 {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.bsPrice {
+  margin-left: 30px;
+  display: flex;
+}
+
+.bsPrice .after {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  color: #cb7005;
+  margin-right: 10px;
+}
+
+.bsPrice .before {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  color: #817979;
+  text-decoration: line-through;
+}
+
+/* Special Offer Section */
+
+.specialOfferSection {
+  width: 100%;
+  background: url(../img/barrett-ward-0lMpQaXfOCg-unsplash.png);
+  height: 450px;
+  margin-bottom: 145px;
+}
+
+.soBoxPosi {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.soBox {
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  width: 600px;
+  height: 360px;
+}
+
+.soBox img {
+  width: 100%;
+  height: 100%;
+}
+
+/* OutFit Section */
+
+.outfitSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+.womenOutfitSection {
+  position: relative;
+  height: 806px;
+  width: 766px;
+}
+
+.womenOutfitSection .title, .menOutfitSection .title {
+  position: absolute;
+  top: 400px;
+  left: 70px;
+  z-index: 2;
+}
+
+.title h5 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Comfortaa';
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.outfitsectbtn {
+  position: absolute;
+  top: 550px;
+  left: 70px;
+  z-index: 2;
+}
+
+.outfitsectbtn input {
+  width: 320px;
+  background: #f7941d;
+  border: none;
+  color: white;
+  font-size: 21px;
+  padding: 1em 0;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.outfitsectbtn input:hover {
+  box-shadow: 0px 0px 10px #000;
+  transition: all .5s;
+}
+
+.menOutfitSection {
+  position: relative;
+  height: 806px;
+  width: 766px;
+}
+
+.ofImg {
+  width: 633px;
+  height: 806px;
+  object-fit: cover;
+}
+
+.ofImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vrtclLetter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 133px;
+  height: 100%;
+  background: linear-gradient(195deg, #252525 90%, #2835ab 10%);
+  padding-top: 100px;
+}
+
+.vrtclLetter h3 {
+  color: white;
+  font-size: 54px;
+  font-family: 'Knewave';
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  letter-spacing: 20px;
+  white-space: nowrap;
+}
+
+/* News Letter Section */
+
+.newsletterSection {
+  text-align: center;
+  background: #f8f8f8;
+  padding-bottom: 50px;
+}
+
+.newsletterSection h4 {
+  font-size: 50px;
+  font-family: 'Signika';
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.newsletterSection p {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  width: 70%;
+  margin: auto;
+  letter-spacing: 2px;
+  margin-bottom: 90px;
+}
+
+.emailInputSection input[type='text'] {
+  border: none;
+  width: 575px;
+  height: 76px;
+  padding-left: 30px;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  color: black;
+}
+
+.emailInputSection input[type='submit'] {
+  border: none;
+  width: 320px;
+  height: 76px;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  color: white;
+  background: #f7941d;
+  letter-spacing: 2px;
+}
+
+.emailInputSection input[type='submit']:hover {
+  box-shadow: 0px 0px 10px #000;
+  transition: all .5s;
+}
+
+/* Footer */
+
+footer {
+  background: #252525;
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.footerFlex {
+  display: flex;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.footerFirstSect {
+  margin-right: 0;
+  text-align: left;
+}
+
+.footerLocation p {
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.footerContacts {
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.footerContacts p {
+  margin-right: 15px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.footerSocialMediaLinks ul {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.footerSocialMediaLinks li {
+  display: inline;
+}
+
+.footerSocialMediaLinks p {
+  display: inline;
+  font-size: 25px;
+  margin-right: 40px;
+}
+
+.footerSocialMediaLinks a {
+  color: #fff;
+}
+
+.footerSecondSect {
+  font-size: 25px;
+  margin-right: 0;
+  
+}
+
+.footerSecondSect h6 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: 'Signika';
+  text-align: left;
+}
+
+.footerSecondSect a {
+  color: white;
+  font-family: 'Comfortaa';
+  font-size: 20px;
+}
+
+.footerSecondSect li {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footerThirdSect {
+
+}
+
+.footerThirdSect h6 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: 'Signika';
+  text-align: left;
+}
+
+.footerGalleryGrid {
+  display: grid;
+  grid-template-columns: 47% 23% 23%;
+  grid-template-rows: 150px 150px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-areas: 
+    "bigImage smallImage1 smallImage2"
+    "bigImage smallImage3 smallImage4"
+}
+
+.bigImage {
+  width: 100%;
+  height: 100%;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.bigImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.smallImage, .smallImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.CopyRight {
+  font-size: 17px;
+  font-family: 'GothamPro';
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+/* About Us */
+
+.aboutUsSection, .ourTeamSection, .pbwcSection {
+  text-align: center;
+}
+
+.aboutUsSection {
+  margin-bottom: 100px;
+}
+
+.aboutUsSection h4, .ourTeamSection h4, .pbwcSection h4, .bestSellerMainSection h4 {
+  font-size: 50px;
+  font-family: 'Signika';
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+.aboutUsImg {
+  width: 100%;
+  height: 560px;
+}
+
+.aboutUsImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutUsSection p {
+  font-size: 21px;
+  line-height: 2;
+  font-family: 'Comfortaa';
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.aboutUsIconImg {
+  height: 160px;
+}
+
+.aboutUsIconImg img {
+  height: 100%;
+}
+
+.ourTeamSection {
+  background: #f8f8f8;
+  padding-bottom: 140px;
+}
+
+.ourTeamSection p, .pbwcSection p {
+  font-size: 21px;
+  line-height: 2;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+  margin-bottom: 70px;
+}
+
+.pbwcSection {
+  margin-bottom: 140px;
+}
+
+.pbwcSection p {
+  margin-bottom: 140px;
+}
+
+.aboutUsFirstSect p {
+  padding-right: 70px;
+}
+
+.aboutUsCard, .aboutUsCard p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ourTeamCardImg {
+  width: 100%;
+  height: 540px;
+}
+
+.ourTeamCardImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.ourTeamCardInfo {
+  width: 100%;
+  padding: 40px;
+  text-align: left;
+  background: #252525;
+}
+
+.ourTeamCardInfo h5, .ourTeamCardInfo h6 {
+  color: #fff;
+  font-family: 'Comfortaa';
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.ourTeamCardInfo h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.ourTeamCardInfo h6 {
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+.logoImg {
+  text-align: center;
+  margin: auto;
+}
+
+/* Best Seller */
+
+.bestSellerMainSection {
+  text-align: center;
+  background: #f8f8f8;
+}
+
+.bestSellerSideSection {
+  text-align: left;
+  width: 100%;
+}
+
+.bestSellerSideSection h4 {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  padding-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.bestSellerSideSection li {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.bestSellerSideSection a {
+  color: #000;
+}
+
+.categorySideSection, .exploreSideSection, .aboutUsSideSection, .contactUsSideSection, .FAQSideSection {
+  margin-bottom: 10px;
+  background: #fff;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.topNav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.topNav h6, .topNav p, .sortForm {
+  display: inline;
+  text-align: left;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+}
+
+.topNav h6 {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.sortForm {
+  margin-left: auto;
+}
+
+.sortForm select {
+  width: 370px;
+  border: none;
+  padding: 20px;
+}
+
+.sellCard {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.sellCardIg {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.sellCardIg:hover .sellcardcontent {
+  display: block;
+}
+
+.sellcardcontent {
+  display: none;
+}
+
+.sellCardHover {
+  display: none;
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 80px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+  background: #fff;
+  z-index: 2;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 23px 0;
+}
+
+.sellCardIg img {
+  width: 100%;
+  height: 100%;
+}
+
+.sellCardInfo {
+  text-align: left;
+}
+
+.sellCardInfo h5 {
+  text-transform: uppercase;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size: 21px;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.sellCardInfo p {
+  display: inline;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  font-size: 21px;
+}
+
+.Pafter {
+  color: #ce7915;
+}
+
+.Pbefore {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.paginationSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.paginationSection a {
+  color: #000;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 1.5px;
+}
+
+.PrevPage i {
+  margin-right: 50px;
+}
+
+.NextPage i {
+  margin-left: 50px;
+}
+
+.paginationNumber a:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* Product View */
+
+.allProductBreadCrumb {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  padding: 40px 0;
+}
+
+.allProductBreadCrumb a, .allProductBreadCrumb {
+  color: #000;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 1.5px;
+}
+
+.allProductBreadCrumb i {
+  margin: 0 15px;
+}
+
+.productViewItem {
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+.itemInfo {
+  text-align: left;
+}
+
+.itemInfo h4 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.itemInfo p {
+  font-family: 'Comfortaa';
+  font-size: 21px;
+  letter-spacing: 1.5px;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.itemSocialMediaLinks ul {
+  display: inline;
+}
+
+.itemSocialMediaLinks li {
+  display: inline;
+}
+
+.itemSocialMediaLinks li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.itemSocialMediaLinks a {
+  color: #000;
+  font-size: 24px;
+}
+
+.mainImage {
+  width: 100%;
+  height: 660px;
+  border: 1px solid rgba(0, 0, 0, .4);
+  margin-bottom: 40px;
+  padding: 40px;
+}
+
+.mainImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.sideImage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideImageView {
+  border: 1px solid rgba(0, 0, 0, .4);
+  width: 150px;
+  height: 150px;
+  padding: 22px;
+}
+
+.sideImageView img {
+  width: 100%;
+  height: 100%;
+}
+
+.productPrice {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.productPrice .before, .productPrice .after {
+  display: inline;
+  font-size: 33px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+}
+
+.productPrice .after {
+  color: #ce7915;
+}
+
+.productPrice .before {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.productCustom {
+  display: flex;
+  margin-bottom: 75px;
+  justify-content: space-between;
+}
+
+.productQuantity {
+}
+
+.productQuantity label, .productQuantity input {
+  display: block;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+}
+
+.productQuantity label {
+  margin-top: -3px;
+  margin-bottom: 35px;
+}
+
+.productQuantity input {
+  width: 100px;
+  height: 70px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, .4);
+}
+
+.productColor h6 {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  margin-bottom: 35px;
+}
+
+.productColorSampleSet {
+  display: flex;
+  width: 100%;
+}
+
+.productColorSampleSet a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.productColorSample {
+  background-color: #000;
+  width: 72px;
+  height: 72px;
+}
+
+.productCartBtn {
+  width: 100%;
+}
+
+.productCheckout h6 {
+  margin-bottom: 30px;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.productCheckout ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.productCheckout li {
+  margin-bottom: 15px;
+}
+
+.productCartBtn input {
+  font-family: 'Comfortaa';
+  font-size: 21px;
+  letter-spacing: 1.5px;
+  border: none;
+  background: #f7941d;
+  color: #fff;
+  padding: 20px 80px;
+}
+
+.productCartBtn input:hover {
+  border: 1px solid #f7941d;
+  background: #fff;
+  color: #f7941d;
+  transition: all .7s;
+}
+
+.productMoreInfo {
+  margin-bottom: 100px;
+}
+
+.productMoreInfo h3 {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.productMoreInfo li {
+  font-family: 'Comfortaa';
+  font-size: 21px;
+  letter-spacing: 1.5px;
+  margin-bottom: 60px;
+  line-height: 2;
+}
+
+/* FAQ Section */
+
+.FAQSection {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.mainFAQSection {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.mainFAQSection h6 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Signika';
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.mainFAQSection p {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  margin-bottom: 70px;
+}
+
+.mainFAQSection .searchBox {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  height: 76px;
+  border: 1px solid #000;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.mainFAQSection .searchBox input {
+  border: none;
+  width: 100%;
+  font-size: 25px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+} 
+
+.mainFAQSection .searchBox label {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.mainFAQSection .searchBox input, .mainFAQSection .searchBox label {
+  display: inline-block;
+}
+
+.slideDown {
+  width: 100%;
+}
+
+.btn-custom {
+  display: block;
+  width: 100%;
+  background: #f7941d;
+  color: #fff;
+  font-size: 21px;
+  border: none;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  padding: 20px 40px;
+  margin-top: 20px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn-custom span {
+  float: right;
+}
+
+.collapsed {
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.custom-card-body {
+  background: #f8f8f8;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  padding: 30px;
+}
+
+/* Contact Us Section */
+
+.contactUsSection {
+  text-align: center;
+  width: 1070px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+
+.contactUsSection h6 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Signika';
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+.contactUsSection p {
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  margin-bottom: 70px;
+}
+
+.formGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formGroupItem {
+  width: 47%;
+  margin-bottom: 55px;
+}
+
+.formGroupItem label, .formGroupItem input {
+  display: block;
+}
+
+.formGroupItem label {
+  text-align: left;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.formGroupItem input {
+  width: 100%;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  padding: 20px 30px;
+  border: 1px solid #000;
+}
+
+.formGroupTextArea {
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.formGroupTextArea label, .formGroupTextArea textarea {
+  display: block;
+}
+
+.formGroupTextArea label {
+  text-align: left;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.formGroupTextArea textarea {
+  width: 100%;
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+  border: 1px solid #000;
+  padding: 30px;
+}
+
+.submitBtn {
+  text-align: right;
+}
+
+.submitBtn input {
+  color: #fff;
+  border: none;
+  background: #f7941d;
+  padding: 20px 120px; 
+  font-size: 21px;
+  font-family: 'Comfortaa';
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+}
+
+.submitBtn input:hover {
+  box-shadow: 0px 0px 10px #000;
+  transition: all .5s;
+}
